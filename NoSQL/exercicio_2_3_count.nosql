@@ -1,0 +1,6 @@
+// NoSQL/exercicio_2_3_count.nosql
+// Contagem de livros com ISBN começando com "18".
+
+db.livros.countDocuments(
+    { isbn: { $exists: true, $ne: null, $regex: /^18/ } }
+);

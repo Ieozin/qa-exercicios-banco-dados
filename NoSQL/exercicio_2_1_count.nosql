@@ -1,0 +1,6 @@
+// NoSQL/exercicio_2_1_count.nosql
+// Contagem de livros não "PUBLISH" e pageCount < 300 (e > 0).
+
+db.livros.countDocuments(
+    { status: { $ne: "PUBLISH" }, pageCount: { $lt: 300, $gt: 0 } }
+);

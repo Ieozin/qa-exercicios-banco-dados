@@ -1,0 +1,7 @@
+// NoSQL/exercicio_1_2.nosql
+// Busca de livros que contém as palavras "MongoDB" E "SQL Server" no título (case-insensitive). Projeta: título.
+
+db.livros.find(
+    { $and: [ { title: { $regex: "MongoDB", $options: "i" } }, { title: { $regex: "SQL Server", $options: "i" } } ] },
+    { title: 1, _id: 0 }
+);

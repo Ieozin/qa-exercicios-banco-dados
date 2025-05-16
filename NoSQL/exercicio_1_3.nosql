@@ -1,0 +1,7 @@
+// NoSQL/exercicio_1_3.nosql
+// Busca com expressão regular onde ISBN começa com "18". Projeta: isbn, título.
+
+db.livros.find(
+    { isbn: { $exists: true, $ne: null, $regex: /^18/ } },
+    { title: 1, isbn: 1, _id: 0 }
+);

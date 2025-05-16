@@ -1,0 +1,6 @@
+// NoSQL/exercicio_2_4_count.nosql
+// Contagem de livros com "JAVA" OU "Mobile" na longDescription.
+
+db.livros.countDocuments(
+    { longDescription: { $exists: true, $ne: null, $regex: /JAVA|Mobile/i } }
+);

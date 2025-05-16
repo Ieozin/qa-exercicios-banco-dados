@@ -1,0 +1,7 @@
+// NoSQL/exercicio_1_4.nosql
+// Busca livros que contém a palavra "JAVA" OU "Mobile" na longDescription (case-insensitive). Projeta: título, longDescription.
+
+db.livros.find(
+    { longDescription: { $exists: true, $ne: null, $regex: /JAVA|Mobile/i } },
+    { title: 1, longDescription: 1, _id: 0 }
+);

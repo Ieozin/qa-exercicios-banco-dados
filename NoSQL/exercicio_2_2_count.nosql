@@ -1,0 +1,6 @@
+// NoSQL/exercicio_2_2_count.nosql
+// Contagem de livros com "MongoDB" E "SQL Server" no título.
+
+db.livros.countDocuments(
+    { $and: [ { title: { $regex: "MongoDB", $options: "i" } }, { title: { $regex: "SQL Server", $options: "i" } } ] }
+);
