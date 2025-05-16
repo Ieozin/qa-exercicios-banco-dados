@@ -10,18 +10,18 @@ O projeto está organizado da seguinte forma:
     -   `exercicio_1_1.sql`: Lista de filmes e suas categorias.
     -   `exercicio_1_2.sql`: Lista de atores e o número de filmes em que participaram, ordenado.
     -   `exercicio_1_3.sql`: Lista de atores que atuaram em filmes com mais de 120 minutos, ordenado.
-    -   `exercicio_2_1_count.sql`: Contagem de registros para a consulta de filmes e categorias.
-    -   `exercicio_2_2_count.sql`: Contagem de atores com filmes.
-    -   `exercicio_2_3_count.sql`: Contagem de atores em filmes longos.
+    -   `exercicio_2_1.sql`: Contagem de registros para a consulta de filmes e categorias (SQL Ex. 1.1).
+    -   `exercicio_2_2.sql`: Contagem de atores com filmes (SQL Ex. 1.2).
+    -   `exercicio_2_3.sql`: Contagem de atores em filmes longos (SQL Ex. 1.3).
 -   **/NoSQL/**: Contém os scripts/comandos para as consultas no banco de dados de livros (MongoDB).
-    -   `exercicio_1_1.nosql`: Livros não publicados com menos de 300 páginas.
-    -   `exercicio_1_2.nosql`: Livros com "MongoDB" e "SQL Server" no título.
-    -   `exercicio_1_3.nosql`: Livros com ISBN começando com "18".
-    -   `exercicio_1_4.nosql`: Livros com "JAVA" ou "Mobile" na descrição.
-    -   `exercicio_2_1_count.nosql`: Contagem para a consulta NoSQL 1.1.
-    -   `exercicio_2_2_count.nosql`: Contagem para a consulta NoSQL 1.2.
-    -   `exercicio_2_3_count.nosql`: Contagem para a consulta NoSQL 1.3.
-    -   `exercicio_2_4_count.nosql`: Contagem para a consulta NoSQL 1.4.
+    -   `exercicio_1_1.nosql`: Busca: Livros não publicados com menos de 300 páginas.
+    -   `exercicio_1_2.nosql`: Busca: Livros com "MongoDB" e "SQL Server" no título.
+    -   `exercicio_1_3.nosql`: Busca: Livros com ISBN começando com "18".
+    -   `exercicio_1_4.nosql`: Busca: Livros com "JAVA" ou "Mobile" na descrição.
+    -   `exercicio_2_1_count.nosql`: Contagem para a consulta NoSQL Ex. 1.1.
+    -   `exercicio_2_2_count.nosql`: Contagem para a consulta NoSQL Ex. 1.2.
+    -   `exercicio_2_3_count.nosql`: Contagem para a consulta NoSQL Ex. 1.3.
+    -   `exercicio_2_4_count.nosql`: Contagem para a consulta NoSQL Ex. 1.4.
 
 ## Pré-requisitos e Configuração
 
@@ -63,6 +63,6 @@ O projeto está organizado da seguinte forma:
 3.  Para **NoSQL**, conecte-se ao seu MongoDB, selecione o banco `biblioteca`, e execute os comandos dos arquivos `.nosql`.
 
 ---
-**Autor:** Leonardo Martins
-**Curso:** Formação QA EBAC
+**Autor:** Leonardo Martins Pereira dos Reis
+**Curso:** Engenheiro de Qualidade de Software - EBAC
 **Módulo:** 32 - Banco de Dados
